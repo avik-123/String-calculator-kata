@@ -53,15 +53,9 @@ public class StringCalculator {
         return sum;
 
 
+
     }
 
-//    public static void main(String args[]){
-//
-//        StringCalculator str = new StringCalculator();
-//        str.add("5,6");
-//
-//
-//    }
 }
 
 

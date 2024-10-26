@@ -38,23 +38,23 @@ public class StringCalculatorTest {
        assertEquals(6, calculator.add("1\n2,3"));
      }
 
-    void testCustomDelimiter(){
+    void testCustomDelimiter() {
         StringCalculator calculator = new StringCalculator();
         System.out.println("Testing the string is separated to ; 1;2;3");
         assertEquals(3, calculator.add("//;\n1;2"));
 
-
-//        void testNegativeNumber(){
-//            StringCalculator calculator1 = new StringCalculator();
-//            Exception exception = assertThrows(IllegalArgumentException.class, () -> {
-//                calculator.add("1,-2,3,-4");
-//            });
-//            assertEquals("Negative numbers not allowed: [-2, -4]", exception.getMessage());
-//        }
+    }
+        void testNegativeNumber(){
+            StringCalculator calculator = new StringCalculator();
+            Exception exception = assertThrows(IllegalArgumentException.class, () -> {
+                calculator.add("1,-2,3,-4");
+            });
+            assertEquals("Negative numbers not allowed: [-2, -4]", exception.getMessage());
+        }
 
 
     }
-}
+
 
 
 
