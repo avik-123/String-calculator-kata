@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="67de3857-0e68-44a5-b734-b8d4d80bac87" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" afterDir="false" />
     </list>
@@ -36,14 +35,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.StringCalculator.executor": "Run",
     "JUnit.All in StringCalculatorKata.executor": "Run",
     "JUnit.StringCalculatorTest.testAdd_EmptyString_ReturnsZero.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.All in StringCalculatorKata">
+    <configuration name="StringCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringCalculator" />
+      <module name="StringCalculatorKata" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in StringCalculatorKata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculatorKata" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,6 +73,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in StringCalculatorKata" />
+        <item itemvalue="Application.StringCalculator" />
         <item itemvalue="JUnit.StringCalculatorTest.testAdd_EmptyString_ReturnsZero" />
       </list>
     </recent_temporary>
